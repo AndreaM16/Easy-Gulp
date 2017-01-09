@@ -10,19 +10,19 @@ Gulp Configuration for a Default JS project
  - Run `npm install`
 
 ##Project's structure
-.
-|--gulp
-|--src
-|  |--assets
-|  |--css
-|  |--img
-|  |--js
-|  |--partials
-|  |--templates
-|  |--index.html
-|--vendors
-|--gulpfile.js
-|--package.json
+    .
+    ├── gulp
+    ├── vendors
+    ├── gulpfile.js
+    ├── package.json
+    ├── src
+    │   ├── assets
+    │   ├── img
+    │   ├── js
+    │   ├── partials
+    │   ├── templates
+    │   ├── index.html
+    │   └── css
 
 ##How to use
  - `gulp`: cleans build if exists, creates build folder, moves all mified js and css + html etc into it, injects the mified files into index, watches the files, runs lint, serves the application at localhosrt:3000
