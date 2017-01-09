@@ -1,0 +1,33 @@
+{
+  "name": "cumlaude21",
+  "version": "1.0.0",
+  "description": "cumlaude21 frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/easy-network/cumlaude21Dashboard.git"
+  },
+  "keywords": [
+    "cumlaude21"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/easy-network/cumlaude21Dashboard/issues"
+  },
+  "homepage": "https://gitlab.com/easy-network/cumlaude21Dashboard#README",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-serve": "^1.4.0",
+    "jshint": "^2.9.4",
+    "run-sequence": "^1.2.2",
+    "serve": "^2.1.2"
+  }
+}
