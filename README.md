@@ -1,15 +1,15 @@
 # Easy-Gulp
 Gulp Configuration for a Default JS project
 
-##Required
+## Required
  - node `~7.3.0`
  - npm `~4.0.5`
 
-##Set Up
+## Set Up
  - Move `gulpfile.js`, `package.json` and `gulp` inside your project
  - Run `npm install`
 
-##Project's structure
+## Project's structure
     .
     ├── gulp
     ├── vendors
@@ -24,7 +24,7 @@ Gulp Configuration for a Default JS project
     │   ├── index.html
     │   └── css
 
-##How to use
+## How to use
  - `gulp`: cleans build if exists, creates build folder, moves all mified js and css + html etc into it, injects the mified files into index, watches the files, runs lint, serves the application at localhosrt:3000
  - `gulp build`: cleans build, creats build folder, moves all mified js and css + html etc into it, injects the mified files into index
  - `gulp clean`: removes build folder
